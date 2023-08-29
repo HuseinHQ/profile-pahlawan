@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF5E0;
+    color: #141E46;
+    font-family: sans-serif;
+}
+
+/* Navbar */
+#navbar {
+    height: 2.5rem;
+    background-color: #BB2525;
+    color: white;
+    
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-self:center;
+    background-color: #BB2525;
+    column-gap: 1rem;
+    padding-top: 0.5rem;
+}
+
+#navbar ul a {
+    color: white;
+    background-color: #BB2525;
+    text-decoration: none;
+}
+
+/* Banner */
+#banner {
+    height: 20rem;
+    background-color: #FF6969;
+}
+
+/* Gallery */
+
+/* Footer */
