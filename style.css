@@ -1,9 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #FFBB5C;
+    background-color: #e9e3da;
     color: #141E46;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* Navbar */
@@ -17,7 +18,7 @@
 #navbar ul {
     display: flex;
     justify-content: center;
-    align-self:center;
+    
     background-color: #C63D2F;
     column-gap: 1rem;
     padding-top: 0.5rem;
@@ -31,18 +32,20 @@
 
 /* Banner */
 #banner {
-    height: 20rem;
+    height: 25rem;
     background-color: #FF6969;
-    background-image: url("https://source.unsplash.com/2560x1080?independence");
-    background-size:cover;
+    background-image: url("https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/18/2023/08/22/Banner-Jalan-Sehat-2502715933.jpg");
+    background-size: cover;
+    background-position: center bottom;
 }
 
 /* Gallery */
 .gallery-title {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
+    color: rgb(216, 14, 14);
 }
 
 .container {
@@ -56,7 +59,7 @@
 .card {
     display: flex;
     flex-direction: column;
-    width: 17rem;
+    width: 19rem;
     background-size: cover;
     padding: 0.3rem;
     border-radius: 10px;
@@ -80,6 +83,7 @@
     width: 100%;
     max-height: 16rem;
     object-fit: cover;
+    object-position: center top;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
