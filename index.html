@@ -19,14 +19,23 @@
             <a>|</a>
             <a href="#gallery">Gallery</a>
             <a>|</a>
-            <a href="/add.html">About</a>
+            <a href="add.html">About</a>
         </ul>
     </div>
 
     <div id="banner">
         
     </div>
-
+    <div>
+        <table>
+            <td>
+                <tr for="SERC">
+                    SERC : 
+                    <input id="SERC"> </input>  
+                <tr>    
+            <td>
+        </table>
+    </div>
     <div id="gallery">
         <h2 class="gallery-title">Profile Pahlawan</h2>
         <div class="container">
@@ -114,7 +123,22 @@
 
     <div id="footer">
         Ini Footer
+        <p id="currentTime"></p>
     </div>
     <script src="index.js"></script>
+    <script>
+    function showTime() {
+        var currentTime = new Date();
+        var utcTime = new Date(currentTime.getTime() + (7 * 60 * 60 * 1000));
+
+        var utcTimeString = utcTime.toUTCString();
+        document.getElementById('currentTime').innerHTML = utcTimeString + '+7';
+    }
+    showTime();
+
+    setInterval(function () {
+    showTime();
+    }, 1000);
+    </script>
 </body>
 </html>
