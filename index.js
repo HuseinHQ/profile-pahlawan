@@ -91,7 +91,7 @@ for (let data of datas) {
 
   container.appendChild(card);
 
-  if (count % 3 === 0) {
+  if (count % 4 === 0) {
     gallery.appendChild(container);
     container = document.createElement("div");
     container.setAttribute("class", "container");
