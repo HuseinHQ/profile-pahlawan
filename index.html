@@ -13,7 +13,17 @@
     <!-- MAIN PAGE -->
     
         <div id="navbar">
-            <ul>
+            <ul> 
+                <div>
+                    <table border = '1'>
+                        <tr>
+                            <td for="SERC">
+                                SERC : 
+                                <input id="SERC" > </input>  
+                            </td>   
+                        </tr>
+                    </table>
+                </div>  
                 <a id="home-button" href="#banner">Home</a>
                 <a>|</a>
                 <a href="#gallery">Gallery</a>
@@ -21,7 +31,7 @@
                 <a href="/add.html">About</a>
             </ul>
         </div>
-    
+ 
     <div id="main-page">
         <div id="banner"></div>
     
@@ -29,10 +39,9 @@
             <h2 class="gallery-title">Profile Pahlawan</h2>
         </div>
     </div>
-
     <!-- DETAIL PAGE -->
-    <div id="detail" style="display: none;">
-        <!-- <div class="top-content">
+    <div id="detail" style="display: none;" id = "1">
+         <div class="top-content" id = >
             <img src="https://d22gwcrfo2de51.cloudfront.net/wp-content/uploads/2020/02/Soekarno_sq-1-e1585486258865.jpg">
             <div class="top-content-info">
                 <h2>Ir. Soekarno</h2>
@@ -41,14 +50,15 @@
                 <p><span>Meninggal:</span> 17 Agustus 1945</p>
             </div>
         </div>
-        <div class="bottom-content">
+        
+        <!-- <div class="bottom-content">
             <h3>Deskripsi Singkat</h3>
             <p>Soekarno, dikenal juga sebagai Bung Karno, adalah salah satu tokoh utama dalam perjuangan kemerdekaan Indonesia. Ia lahir pada tahun 1901 dan menjadi proklamator kemerdekaan Indonesia pada 1945, serta presiden pertama negara ini hingga tahun 1967. Soekarno dikenal sebagai orator ulung dan pemimpin karismatik yang memimpin rakyat Indonesia melalui perjuangan berat dalam meraih kemerdekaan dari penjajahan Belanda. Ia juga merupakan pendiri ideologi nasional "Pancasila" dan mengadvokasi gerakan non-blok selama periode Perang Dingin. Meskipun pemerintahannya berakhir dengan pergantian kekuasaan, warisan dan pengaruhnya dalam sejarah modern Indonesia tetap dikenang hingga kini.</p>
         </div>
         <div class="button-set">
             <button class="update">Update Data</button>
             <button class="delete">Delete Data</button>
-        </div> -->
+        </div>  -->
     </div>
 
 
@@ -56,19 +66,5 @@
         <p>&copy 2023 - Hackaton fsjf-sby01 Group 3</p>
     </div>
     <script src="index.js"></script>
-    <script>
-    function showTime() {
-        var currentTime = new Date();
-        var utcTime = new Date(currentTime.getTime() + (7 * 60 * 60 * 1000));
-
-        var utcTimeString = utcTime.toUTCString();
-        document.getElementById('currentTime').innerHTML = utcTimeString + '+7';
-    }
-    showTime();
-
-    setInterval(function () {
-    showTime();
-    }, 1000);
-    </script>
 </body>
 </html>
