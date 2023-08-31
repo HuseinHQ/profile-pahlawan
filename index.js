@@ -201,6 +201,7 @@ function runingMainJS() {
       addButton.addEventListener("click", () => {
         mainPage.setAttribute("style", "display: none");
         addPage.removeAttribute("style");
+        detail.setAttribute("style", "display: none");
       });
 
       function submitForm(event) {
