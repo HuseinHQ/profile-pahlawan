@@ -6,11 +6,12 @@
 }
 
 html {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvIj0qfg1t9SiuCmv-bmlmNNjBqK5ynHoMjW5bhxzVfg&s");
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvIj0qfg1t9SiuCmv-bmlmNNjBqK5ynHoMjW5bhxzVfg&s"); */
+    background-color: white;
 }
 
 body {
-    background-color: #e9e3da;
+    background-color: white;
     color: #141E46;
 }
 
@@ -49,9 +50,11 @@ body {
 }
 
 /* Gallery */
-#gallery {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvIj0qfg1t9SiuCmv-bmlmNNjBqK5ynHoMjW5bhxzVfg&s");
-}
+/* #gallery {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvIj0qfg1t9SiuCmv-bmlmNNjBqK5ynHoMjW5bhxzVfg&s"); */
+    /* background: rgb(255,0,0);
+    background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(223,42,42,1) 24%, rgba(226,82,82,1) 49%, rgba(216,60,60,1) 75%, rgba(207,38,38,1) 100%);
+} */
 
 .gallery-title {
     font-size: 3rem;
@@ -185,7 +188,6 @@ p > span {
 
 .button-set {
     display: inline-block;
-    width: 20rem;
     margin: auto;
 }
 
@@ -207,4 +209,14 @@ p > span {
 
 .delete {
     background-color: red;
+}
+
+#footer {
+    position: relative;
+    bottom:0px;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    background-color: #C63D2F;
+    color: white;
 }

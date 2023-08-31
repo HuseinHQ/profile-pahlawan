@@ -91,19 +91,20 @@ let datas = [
   },
 ];
 
-let currentId = 9;
 let selectedId = null;
 
 const gallery = document.querySelector("#gallery");
 let container = document.createElement("div");
 container.setAttribute("class", "container");
 let count = 0;
+let deleteIndex = null;
 
 // Merender card
 for (let i = 0; i < datas.length; i++) {
   const data = datas[i];
 
   count++;
+
   const card = document.createElement("div");
   card.setAttribute("class", "card");
 
@@ -124,7 +125,7 @@ for (let i = 0; i < datas.length; i++) {
   const p2 = document.createElement("p");
   p2.innerHTML = `<span>Tanggal lahir:</span> ${data.tanggalLahir}`;
   const p3 = document.createElement("p");
-  p3.innerHTML = `<span>Meninggal:</span> ${data.meninggal}`;
+  p3.innerHTML = `<span>Wafat:</span> ${data.meninggal}`;
   const p4 = document.createElement("p");
   p4.innerText = data.desc;
   const p5 = document.createElement("p");
@@ -162,7 +163,7 @@ for (let i = 0; i < datas.length; i++) {
                 <h2>${data.nama}</h2>
                 <p><span>Tempat Lahir:</span> ${data.tempatLahir}</p>
                 <p><span>Tanggal Lahir:</span> ${data.tanggalLahir}</p>
-                <p><span>Meninggal:</span> ${data.meninggal}</p>
+                <p><span>Wafat:</span> ${data.meninggal}</p>
             </div>
         </div>
         <div class="bottom-content">
@@ -174,6 +175,12 @@ for (let i = 0; i < datas.length; i++) {
             <button class="delete">Delete Data</button>
         </div>
         `;
+
+        const deleteButton = document.querySelector(".delete");
+        deleteButton.addEventListener("click", () => {
+          deleteIndex = data.id;
+          datas.splice(deleteIndex, 1);
+        });
 
         break;
       }
