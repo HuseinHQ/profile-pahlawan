@@ -91,12 +91,18 @@ let datas = [
   },
 ];
 
+let currentId = 9;
+let selectedId = null;
+
 const gallery = document.querySelector("#gallery");
 let container = document.createElement("div");
 container.setAttribute("class", "container");
 let count = 0;
 
-for (let data of datas) {
+// Merender card
+for (let i = 0; i < datas.length; i++) {
+  const data = datas[i];
+
   count++;
   const card = document.createElement("div");
   card.setAttribute("class", "card");
@@ -135,6 +141,54 @@ for (let data of datas) {
   card.appendChild(cardImg);
   card.appendChild(cardContent);
 
+  const mainPage = document.querySelector("#main-page");
+
+  // Memberi event click pada card
+  card.addEventListener("click", () => {
+    selectedId = data.id;
+    mainPage.setAttribute("style", "display: none");
+    console.log(selectedId);
+
+    // Detail Page
+    const detail = document.querySelector("#detail");
+
+    for (let data of datas) {
+      if (data.id === selectedId) {
+        detail.removeAttribute("style");
+        detail.innerHTML = `
+        <div class="top-content">
+            <img src="${data.img}">
+            <div class="top-content-info">
+                <h2>${data.nama}</h2>
+                <p><span>Tempat Lahir:</span> ${data.tempatLahir}</p>
+                <p><span>Tanggal Lahir:</span> ${data.tanggalLahir}</p>
+                <p><span>Meninggal:</span> ${data.meninggal}</p>
+            </div>
+        </div>
+        <div class="bottom-content">
+            <h3>Deskripsi Singkat</h3>
+            <p>${data.desc}</p>
+        </div>
+        <div class="button-set">
+            <button class="update">Update Data</button>
+            <button class="delete">Delete Data</button>
+        </div>
+        `;
+
+        break;
+      }
+    }
+  });
+
+  // Memberi event click pada home-button
+  const homeButton = document.querySelector("#home-button");
+  homeButton.addEventListener("click", () => {
+    mainPage.removeAttribute("style");
+    const detail = document.querySelector("#detail");
+    detail.innerHTML = "";
+    detail.setAttribute("style", "display: none");
+  });
+
   container.appendChild(card);
 
   if (count % 4 === 0) {
@@ -142,6 +196,8 @@ for (let data of datas) {
     container = document.createElement("div");
     container.setAttribute("class", "container");
   }
-}
 
-gallery.appendChild(container);
+  if (i === datas.length - 1) {
+    gallery.appendChild(container);
+  }
+}
