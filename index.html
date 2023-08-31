@@ -54,7 +54,22 @@
 
     <div id="footer">
         
+        <p id="currentTime"></p>
     </div>
     <script src="index.js"></script>
+    <script>
+    function showTime() {
+        var currentTime = new Date();
+        var utcTime = new Date(currentTime.getTime() + (7 * 60 * 60 * 1000));
+
+        var utcTimeString = utcTime.toUTCString();
+        document.getElementById('currentTime').innerHTML = utcTimeString + '+7';
+    }
+    showTime();
+
+    setInterval(function () {
+    showTime();
+    }, 1000);
+    </script>
 </body>
 </html>
