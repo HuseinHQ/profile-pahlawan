@@ -79,59 +79,59 @@ let datas = {
     img: "data:image/jpeg;base64,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",
     desc: "Dr. Wahidin Soedirohoesodo lahir di Surabaya pada 9 Juni 1896. Beliau adalah seorang pahlawan nasional Indonesia yang berjuang dalam pergerakan kemerdekaan dan memainkan peran penting dalam memajukan pendidikan dan kesehatan. Wahidin Soedirohoesodo merupakan pendiri Sekolah Kedokteran Bataks dan juga berkontribusi dalam pendirian Universitas Airlangga di Surabaya. Selain itu, ia juga merupakan salah satu tokoh perintis dalam bidang kesehatan di Indonesia, menjadikannya teladan dalam pelayanan medis masyarakat. Dedikasinya dalam bidang pendidikan dan kesehatan serta perjuangannya dalam meraih kemerdekaan membuatnya dihormati sebagai pahlawan nasional.",
   },
-}
+};
 
 function runingMainJS() {
-  const SERC = document.getElementById("SERC")
+  const SERC = document.getElementById("SERC");
   let dataConverter;
   function webdata() {
-      const gallery = document.querySelector("#gallery");
-      let container = document.createElement("div");
-      container.setAttribute("class", "container");
-      let count = 0;
+    const gallery = document.querySelector("#gallery");
+    let container = document.createElement("div");
+    container.setAttribute("class", "container");
+    let count = 0;
 
-      if (dataConverter === undefined) {
-        dataConverter = datas
-      }
-      for (let data in dataConverter) {
-        count++;
-        const card = document.createElement("div");
-        card.setAttribute("class", "card");
-        card.setAttribute("id", count);
+    if (dataConverter === undefined) {
+      dataConverter = datas;
+    }
+    for (let data in dataConverter) {
+      count++;
+      const card = document.createElement("div");
+      card.setAttribute("class", "card");
+      card.setAttribute("id", count);
 
-        const cardImg = document.createElement("div");
-        cardImg.setAttribute("class", "card-img");
+      const cardImg = document.createElement("div");
+      cardImg.setAttribute("class", "card-img");
 
-        const img = document.createElement("img");
-        img.setAttribute("src", datas[data].img);
-        cardImg.appendChild(img);
+      const img = document.createElement("img");
+      img.setAttribute("src", datas[data].img);
+      cardImg.appendChild(img);
 
-        const cardContent = document.createElement("div");
-        cardContent.setAttribute("class", "card-content");
+      const cardContent = document.createElement("div");
+      cardContent.setAttribute("class", "card-content");
 
-        const h3 = document.createElement("h3");
-        h3.innerText = data;
-        const p1 = document.createElement("p");
-        p1.innerHTML = `<span>Tempat lahir:</span> ${datas[data].tempatLahir}`;
-        const p2 = document.createElement("p");
-        p2.innerHTML = `<span>Tanggal lahir:</span> ${datas[data].tanggalLahir}`;
-        const p3 = document.createElement("p");
-        p3.innerHTML = `<span>Meninggal:</span> ${datas[data].meninggal}`;
-        const p4 = document.createElement("p");
-        p4.innerText = datas[data].desc;
-        const p5 = document.createElement("p");
-        p5.innerText = datas[data].id;
-        p5.setAttribute("style", "display: none");
+      const h3 = document.createElement("h3");
+      h3.innerText = data;
+      const p1 = document.createElement("p");
+      p1.innerHTML = `<span>Tempat lahir:</span> ${datas[data].tempatLahir}`;
+      const p2 = document.createElement("p");
+      p2.innerHTML = `<span>Tanggal lahir:</span> ${datas[data].tanggalLahir}`;
+      const p3 = document.createElement("p");
+      p3.innerHTML = `<span>Meninggal:</span> ${datas[data].meninggal}`;
+      const p4 = document.createElement("p");
+      p4.innerText = datas[data].desc;
+      const p5 = document.createElement("p");
+      p5.innerText = datas[data].id;
+      p5.setAttribute("style", "display: none");
 
-        cardContent.appendChild(h3);
-        cardContent.appendChild(p1);
-        cardContent.appendChild(p2);
-        cardContent.appendChild(p3);
-        cardContent.appendChild(p4);
-        cardContent.appendChild(p5);
+      cardContent.appendChild(h3);
+      cardContent.appendChild(p1);
+      cardContent.appendChild(p2);
+      cardContent.appendChild(p3);
+      cardContent.appendChild(p4);
+      cardContent.appendChild(p5);
 
-        card.appendChild(cardImg);
-        card.appendChild(cardContent);
+      card.appendChild(cardImg);
+      card.appendChild(cardContent);
 
       const mainPage = document.querySelector("#main-page");
       // Memberi event click pada card
@@ -168,12 +168,12 @@ function runingMainJS() {
 
             const deleteButton = document.querySelector(".delete");
             deleteButton.addEventListener("click", () => {
-              let containers = document.getElementById(String(datas[data].id+1));
+              let containers = document.getElementById(String(datas[data].id + 1));
               if (containers) {
-                containers.remove()
+                containers.remove();
               }
-              delete datas[data]
-              return
+              delete datas[data];
+              return;
             });
             const updateButton = document.querySelector(".update");
             updateButton.addEventListener("click", () => {
@@ -186,11 +186,30 @@ function runingMainJS() {
 
       // Memberi event click pada home-button
       const homeButton = document.querySelector("#home-button");
+      const addButton = document.querySelector("#add-pahlawan");
+      const addPage = document.querySelector("#add-page");
+
       homeButton.addEventListener("click", () => {
         mainPage.removeAttribute("style");
         const detail = document.querySelector("#detail");
         detail.innerHTML = "";
         detail.setAttribute("style", "display: none");
+        addPage.setAttribute("style", "display: none");
+      });
+
+      // Memberi event click pada add buton
+      addButton.addEventListener("click", () => {
+        mainPage.setAttribute("style", "display: none");
+        addPage.removeAttribute("style");
+      });
+
+      function submitForm(event) {
+        event.preventDefault();
+      }
+
+      const submitButton = document.querySelector("#submit");
+      submitButton.addEventListener("onsubmit", (event) => {
+        event.preventDefault();
       });
 
       container.appendChild(card);
@@ -204,10 +223,10 @@ function runingMainJS() {
     gallery.appendChild(container);
   }
   SERC.oninput = (event) => {
-    dataConverter = {}
+    dataConverter = {};
     let containers = document.getElementById("gallery");
     if (containers) {
-      containers.innerHTML = '<h2 class="gallery-title">Profile Pahlawan</h2>'
+      containers.innerHTML = '<h2 class="gallery-title">Profile Pahlawan</h2>';
     }
     for (let key in datas) {
       if (key.toLowerCase().includes(SERC.value.toLowerCase())) {
@@ -218,11 +237,11 @@ function runingMainJS() {
           meninggal: datas[key].meninggal,
           img: datas[key].img,
           desc: datas[key].desc,
-        }
+        };
       }
     }
-    webdata()
-  }
-  webdata()
+    webdata();
+  };
+  webdata();
 }
-runingMainJS()
+runingMainJS();
