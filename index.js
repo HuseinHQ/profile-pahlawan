@@ -270,6 +270,11 @@ function addtable() {
     desc: deskripsi,
   };
   console.log(datas[nama]);
+
+  if (!nama || !tempatlahir || !tanggallahir || !wafat || !imgsrc || !deskripsi) {
+  } else {
+    alert("Data Berhasil Dimasukkan!");
+  }
 }
 
 function showTime() {
