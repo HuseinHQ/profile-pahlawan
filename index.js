@@ -177,7 +177,7 @@ function webdata() {
           const updateButton = document.querySelector(".update");
           updateButton.addEventListener("click", () => {
             if (updateButton) {
-              datas[data].desc = prompt("Silakan isi : ")
+              datas[data].desc = prompt("Silakan isi : ");
             }
           });
           break;
@@ -185,17 +185,25 @@ function webdata() {
       }
     });
 
-    // Memberi event click pada home-button
     const homeButton = document.querySelector("#home-button");
     const addButton = document.querySelector("#add-pahlawan");
     const addPage = document.querySelector("#add-page");
+    const galleryButton = document.querySelector("#gallery-button");
 
+    // Memberi event click pada home-button
     homeButton.addEventListener("click", () => {
       mainPage.removeAttribute("style");
       const detail = document.querySelector("#detail");
       detail.innerHTML = "";
       detail.setAttribute("style", "display: none");
       addPage.setAttribute("style", "display: none");
+    });
+
+    // Memberi event click pada gallery button
+    galleryButton.addEventListener("click", () => {
+      mainPage.removeAttribute("style");
+      addPage.setAttribute("style", "display: none");
+      detail.setAttribute("style", "display: none");
     });
 
     // Memberi event click pada add buton
@@ -246,7 +254,7 @@ SERC.oninput = (event) => {
 };
 webdata();
 
-function addtable(){
+function addtable() {
   const nama = document.getElementById("nama").value;
   const tempatlahir = document.getElementById("tempatlahir").value;
   const tanggallahir = document.getElementById("tanggallahir").value;
@@ -260,12 +268,12 @@ function addtable(){
     meninggal: wafat,
     img: imgsrc,
     desc: deskripsi,
-  }
-  console.log(datas[nama])
+  };
+  console.log(datas[nama]);
 }
 
 function showTime() {
-	document.getElementById('currentTime').innerHTML = new Date().toUTCString();
+  document.getElementById("currentTime").innerHTML = new Date().toUTCString();
   let containers = document.getElementById("gallery");
   if (containers) {
     containers.innerHTML = '<h2 class="gallery-title">Profile Pahlawan</h2>';
@@ -274,5 +282,5 @@ function showTime() {
 }
 showTime();
 setInterval(function () {
-	showTime();
+  showTime();
 }, 1000);

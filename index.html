@@ -14,19 +14,12 @@
     
         <div id="navbar">
             <ul> 
-                <div>
-                    <table border = '1'>
-                        <tr>
-                            <td for="SERC">
-                                SERC : 
-                                <input id="SERC" > </input>  
-                            </td>   
-                        </tr>
-                    </table>
+                <div class="search-container">
+                      <input class="search-input" id="SERC" placeholder="Search"> </input>  
                 </div>  
                 <a id="home-button" href="#banner">Home</a>
                 <a>|</a>
-                <a href="#gallery">Gallery</a>
+                <a id="gallery-button" href="#gallery">Gallery</a>
                 <a>|</a>
                 <a id="add-pahlawan" href="#banner">Add pahlawan</a>
             </ul>
@@ -91,7 +84,7 @@
                 <textarea type="text" id="deskripsi" required></textarea>
               </div>
               <div class="form-group">
-                <button onclick = "addtable()">CLICK</button>
+                <button class="submit-button" onclick = "addtable()">Submit</button>
               </div>
             </form>
           </div>

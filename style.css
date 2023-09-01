@@ -40,6 +40,23 @@ body {
     text-decoration: none;
 }
 
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+    padding: 2px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
 /* Banner */
 #banner {
     height: 25rem;
@@ -266,7 +283,7 @@ p > span {
     box-sizing: border-box;
   }
 
-  input[type="submit"] {
+  .submit-button {
     background-color: #007bff;
     color: white;
     border: none;
@@ -275,6 +292,6 @@ p > span {
     cursor: pointer;
   }
 
-  input[type="submit"]:hover {
+  .submit-button:hover {
     background-color: #0056b3;
   }
