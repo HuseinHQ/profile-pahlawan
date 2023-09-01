@@ -65,40 +65,40 @@
     <!-- ADD PAGE -->
     <div id="add-page" class="style1" style="display: none">
         <div class="form-container">
-            <form onsubmit="submitForm(event)">
+            <form>
               <div class="form-group">
                 <label for="nama">Nama:</label>
-                <input type="text" id="nama" name="nama" required>
+                <input type="text" id="nama" required>
               </div>
               <div class="form-group">
-                <label for="tempat-lahir">Tempat Lahir:</label>
-                <input type="text" id="tempat-lahir" name="tempat-lahir" required>
+                <label for="tempatlahir">Tempat Lahir:</label>
+                <input type="text" id="tempatlahir" required>
               </div>
               <div class="form-group">
-                <label for="tanggal_lahir">Tanggal Lahir:</label>
-                <input type="text" id="tanggal_lahir" name="tanggal_lahir" required>
+                <label for="tanggallahir">Tanggal Lahir:</label>
+                <input type="text" id="tanggallahir" required>
               </div>
               <div class="form-group">
                 <label for="wafat">Wafat:</label>
-                <input type="text" id="wafat" name="wafat" required>
+                <input type="text" id="wafat" required>
               </div>
               <div class="form-group">
-                <label for="img-src">Image Source:</label>
-                <input type="text" id="img-src" name="img-src" required>
+                <label for="imgsrc">Image Source:</label>
+                <input type="text" id="imgsrc" required>
               </div>
               <div class="form-group">
                 <label for="deskripsi">Deskripsi:</label>
-                <textarea type="text" id="deskripsi" name="deskripsi" required></textarea>
+                <textarea type="text" id="deskripsi" required></textarea>
               </div>
               <div class="form-group">
-                <input id="submit" type="submit" value="Submit">
+                <button onclick = "addtable()">CLICK</button>
               </div>
             </form>
           </div>
     </div>
-
     <div id="footer">
         <p>&copy 2023 - Hackaton fsjf-sby01 Group 3</p>
+        <p id="currentTime" style="display: none"></p>
     </div>
     <script src="index.js"></script>
 </body>

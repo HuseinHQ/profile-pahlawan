@@ -1,6 +1,6 @@
 let datas = {
   "Ir. Soekarno": {
-    id: 0,
+    id: "Ir. Soekarno",
     tempatLahir: "Surabaya",
     tanggalLahir: "6 Juni 1901",
     meninggal: "21 Juni 1970",
@@ -8,7 +8,7 @@ let datas = {
     desc: 'Soekarno, dikenal juga sebagai Bung Karno, adalah salah satu tokoh utama dalam perjuangan kemerdekaan Indonesia. Ia lahir pada tahun 1901 dan menjadi proklamator kemerdekaan Indonesia pada 1945, serta presiden pertama negara ini hingga tahun 1967. Soekarno dikenal sebagai orator ulung dan pemimpin karismatik yang memimpin rakyat Indonesia melalui perjuangan berat dalam meraih kemerdekaan dari penjajahan Belanda. Ia juga merupakan pendiri ideologi nasional "Pancasila" dan mengadvokasi gerakan non-blok selama periode Perang Dingin. Meskipun pemerintahannya berakhir dengan pergantian kekuasaan, warisan dan pengaruhnya dalam sejarah modern Indonesia tetap dikenang hingga kini.',
   },
   "Dr. Mohammad Hatta": {
-    id: 1,
+    id: "Dr. Mohammad Hatta",
     tempatLahir: "Bukittinggi",
     tanggalLahir: "12 Agustus 1902",
     meninggal: "14 Maret 1980",
@@ -16,7 +16,7 @@ let datas = {
     desc: "Dr. Mohammad Hatta, juga dikenal sebagai Bung Hatta, lahir di Bukittinggi pada 12 Agustus 1902. Beliau merupakan salah satu pendiri Republik Indonesia dan tokoh perjuangan kemerdekaan yang berperan penting dalam merumuskan dasar-dasar negara dan ekonomi. Bersama dengan Ir. Soekarno, Hatta memainkan peran kunci dalam memimpin perjuangan melawan penjajahan Belanda. Beliau juga menjabat sebagai wakil presiden pertama Indonesia. Pemikiran visioner dan dedikasinya dalam memajukan bangsa membuatnya diakui sebagai salah satu pahlawan nasional Indonesia yang berjasa besar dalam membangun fondasi negara yang merdeka dan berdaulat.",
   },
   "Cut Nyak Dien": {
-    id: 2,
+    id: "Cut Nyak Dien",
     tempatLahir: "Aceh",
     tanggalLahir: "1848",
     meninggal: "6 November 1908",
@@ -24,7 +24,7 @@ let datas = {
     desc: "Cut Nyak Dien lahir di Aceh pada tahun 1848. Beliau merupakan seorang pahlawan perempuan yang gigih melawan penjajah Belanda selama Perang Aceh. Cut Nyak Dien terkenal karena kepemimpinannya dalam perlawanan dan peran pentingnya dalam memimpin pasukan Aceh melawan tentara kolonial. Pengorbanan dan semangat juangnya dalam mempertahankan kemerdekaan Aceh membuatnya dihormati sebagai simbol perlawanan wanita dan nasionalisme di Indonesia. Cut Nyak Dien merupakan teladan inspiratif dalam mempertahankan nilai-nilai keberanian dan keadilan.",
   },
   "R.A. Kartini": {
-    id: 3,
+    id: "R.A. Kartini",
     tempatLahir: "Jepara",
     tanggalLahir: "21 April 1879",
     meninggal: "17 September 1904",
@@ -32,7 +32,7 @@ let datas = {
     desc: "R.A. Kartini dilahirkan di Jepara pada 21 April 1879. Ia dikenal sebagai pahlawan perempuan Indonesia yang berjuang untuk emansipasi perempuan dan pendidikan. Kartini mendorong perubahan sosial dengan memperjuangkan hak-hak pendidikan bagi perempuan dan mengatasi keterbatasan tradisional. Melalui surat-suratnya, ia menyuarakan pentingnya kesetaraan gender dan pembebasan perempuan dari kungkungan budaya patriarki. Meskipun hidupnya singkat, warisannya menginspirasi lahirnya gerakan perempuan dan pendidikan di Indonesia. R.A. Kartini diakui sebagai simbol perjuangan perempuan dalam mencapai hak-haknya dan membawa perubahan positif dalam masyarakat.",
   },
   "Ki Hajar Dewantara": {
-    id: 4,
+    id: "Ki Hajar Dewantara",
     tempatLahir: "Yogyakarta",
     tanggalLahir: "2 Mei 1889",
     meninggal: "28 April 1959",
@@ -40,7 +40,7 @@ let datas = {
     desc: "Ki Hajar Dewantara lahir di Yogyakarta pada 2 Mei 1889. Beliau dikenal sebagai Bapak Pendidikan Nasional Indonesia dan pendiri Taman Siswa, sebuah lembaga pendidikan alternatif pada masa kolonial. Melalui filosofi 'Ing Ngarsa Sung Tuladha, Ing Madya Mangun Karso, Tut Wuri Handayani', Ki Hajar Dewantara mempromosikan pendidikan yang mengembangkan potensi unik setiap individu. Usahanya dalam memperjuangkan pendidikan yang inklusif dan berkeadilan telah memberikan dampak yang signifikan terhadap perkembangan sistem pendidikan Indonesia. Ki Hajar Dewantara dihormati sebagai tokoh yang berdedikasi dalam memajukan pendidikan dan pemikiran kritis di Indonesia.",
   },
   "Dewi Sartika": {
-    id: 5,
+    id: "Dewi Sartika",
     tempatLahir: "Bandung",
     tanggalLahir: "4 September 1884",
     meninggal: "11 September 1947",
@@ -48,7 +48,7 @@ let datas = {
     desc: "Dewi Sartika lahir di Bandung pada 4 September 1884. Beliau adalah seorang pejuang pendidikan dan emansipasi perempuan yang mendirikan sekolah pertama untuk perempuan pribumi di Hindia Belanda, yaitu Sekolah Isteri, pada tahun 1907. Dewi Sartika mendorong keterlibatan perempuan dalam pendidikan dan pembangunan masyarakat. Ia juga aktif dalam menyuarakan isu-isu sosial dan politik serta berperan dalam gerakan perempuan di awal abad ke-20. Dedikasinya dalam memperjuangkan hak pendidikan dan peran perempuan menjadikan Dewi Sartika sebagai inspirasi dalam perjuangan emansipasi perempuan di Indonesia.",
   },
   "Sutan Syahrir": {
-    id: 6,
+    id: "Sutan Syahrir",
     tempatLahir: "Padang Panjang",
     tanggalLahir: "5 Maret 1909",
     meninggal: "9 April 1966",
@@ -56,7 +56,7 @@ let datas = {
     desc: "Sutan Syahrir dilahirkan di Padang Panjang pada 5 Maret 1909. Beliau adalah seorang intelektual, politikus, dan perintis kemerdekaan Indonesia. Syahrir menjadi salah satu pendiri Partai Indonesia Merdeka (Parindra) dan kemudian menjadi Perdana Menteri pertama Indonesia setelah proklamasi kemerdekaan. Ia dikenal dengan pandangan-pandangannya yang progresif dan kritis terhadap kolonialisme. Meskipun menghadapi tantangan politik yang kompleks, Syahrir tetap konsisten dalam mendorong demokrasi dan kemerdekaan. Warisannya sebagai pemikir dan pemimpin telah memberikan pengaruh yang berkelanjutan dalam perjalanan politik Indonesia.",
   },
   "Tjilik Riwut": {
-    id: 7,
+    id: "Tjilik Riwut",
     tempatLahir: "Purworejo",
     tanggalLahir: "7 Juli 1926",
     meninggal: "2 Juni 2013",
@@ -64,7 +64,7 @@ let datas = {
     desc: "Tjilik Riwut lahir di Purworejo pada 7 Juli 1926. Beliau adalah seorang pahlawan nasional yang berperan penting dalam memajukan daerah Kalimantan Tengah. Tjilik Riwut terlibat dalam pembangunan dan peningkatan infrastruktur di wilayah tersebut. Ia juga menjadi tokoh yang mendorong pengakuan dan pemahaman terhadap keberagaman suku dan budaya di Kalimantan. Sebagai gubernur pertama Kalimantan Tengah, Tjilik Riwut berupaya menjaga keharmonisan antar-etnis dan membangun ekonomi daerah. Dedikasinya dalam membangun Kalimantan Tengah menjadikannya contoh inspiratif dalam memajukan daerah-daerah Indonesia yang terpencil.",
   },
   "Dr. G.S.S.J. Ratulangi": {
-    id: 8,
+    id: "Dr. G.S.S.J. Ratulangi",
     tempatLahir: "Tondano",
     tanggalLahir: "5 November 1890",
     meninggal: "30 Juni 1949",
@@ -72,7 +72,7 @@ let datas = {
     desc: "Dr. Gerungan Saul Samuel Jacob Ratulangi, atau lebih dikenal sebagai G.S.S.J. Ratulangi, lahir di Tondano pada 5 November 1890. Beliau adalah seorang pahlawan nasional Indonesia yang berjuang dalam pergerakan kemerdekaan. Ia dikenal sebagai tokoh perintis dalam pembentukan Negara Kesatuan Republik Indonesia Timur (NKRI-T) yang merupakan bagian dari upaya menjaga integritas wilayah Indonesia dari pengaruh kolonialisme. Ratulangi juga merupakan seorang intelektual, penulis, dan tokoh pergerakan yang berdedikasi dalam memajukan masyarakat dan kebudayaan di Indonesia Timur. Warisannya dalam perjuangan nasional dan kecintaannya pada tanah air membuatnya dihormati sebagai salah satu arsitek perjuangan wilayah timur Indonesia.",
   },
   "Dr. Wahidin Soedirohoesodo": {
-    id: 9,
+    id: "Dr. Wahidin Soedirohoesodo",
     tempatLahir: "Surabaya",
     tanggalLahir: "9 Juni 1896",
     meninggal: "20 Juni 1952",
@@ -81,168 +81,198 @@ let datas = {
   },
 };
 
-function runingMainJS() {
-  const SERC = document.getElementById("SERC");
-  let dataConverter;
-  function webdata() {
-    const gallery = document.querySelector("#gallery");
-    let container = document.createElement("div");
-    container.setAttribute("class", "container");
-    let count = 0;
+const SERC = document.getElementById("SERC");
+let dataConverter;
+function webdata() {
+  const gallery = document.querySelector("#gallery");
+  let container = document.createElement("div");
+  container.setAttribute("class", "container");
+  let count = 0;
 
-    if (dataConverter === undefined) {
-      dataConverter = datas;
-    }
-    for (let data in dataConverter) {
-      count++;
-      const card = document.createElement("div");
-      card.setAttribute("class", "card");
-      card.setAttribute("id", count);
-
-      const cardImg = document.createElement("div");
-      cardImg.setAttribute("class", "card-img");
-
-      const img = document.createElement("img");
-      img.setAttribute("src", datas[data].img);
-      cardImg.appendChild(img);
-
-      const cardContent = document.createElement("div");
-      cardContent.setAttribute("class", "card-content");
-
-      const h3 = document.createElement("h3");
-      h3.innerText = data;
-      const p1 = document.createElement("p");
-      p1.innerHTML = `<span>Tempat lahir:</span> ${datas[data].tempatLahir}`;
-      const p2 = document.createElement("p");
-      p2.innerHTML = `<span>Tanggal lahir:</span> ${datas[data].tanggalLahir}`;
-      const p3 = document.createElement("p");
-      p3.innerHTML = `<span>Meninggal:</span> ${datas[data].meninggal}`;
-      const p4 = document.createElement("p");
-      p4.innerText = datas[data].desc;
-      const p5 = document.createElement("p");
-      p5.innerText = datas[data].id;
-      p5.setAttribute("style", "display: none");
-
-      cardContent.appendChild(h3);
-      cardContent.appendChild(p1);
-      cardContent.appendChild(p2);
-      cardContent.appendChild(p3);
-      cardContent.appendChild(p4);
-      cardContent.appendChild(p5);
-
-      card.appendChild(cardImg);
-      card.appendChild(cardContent);
-
-      const mainPage = document.querySelector("#main-page");
-      // Memberi event click pada card
-      card.addEventListener("click", () => {
-        selectedId = datas[data].id;
-        mainPage.setAttribute("style", "display: none");
-        console.log(datas[data].id);
-
-        // Detail Page
-        const detail = document.querySelector("#detail");
-
-        for (let data in datas) {
-          if (datas[data].id === selectedId) {
-            detail.removeAttribute("style");
-            detail.innerHTML = `
-        <div class="top-content">
-            <img src="${datas[data].img}">
-            <div class="top-content-info">
-                <h2>${data}</h2>
-                <p><span>Tempat Lahir:</span> ${datas[data].tempatLahir}</p>
-                <p><span>Tanggal Lahir:</span> ${datas[data].tanggalLahir}</p>
-                <p><span>Wafat:</span> ${datas[data].meninggal}</p>
-            </div>
-        </div>
-        <div class="bottom-content">
-            <h3>Deskripsi Singkat</h3>
-            <p>${datas[data].desc}</p>
-        </div>
-        <div class="button-set">
-            <button class="update">Update Data</button>
-            <button class="delete">Delete Data</button>
-        </div>
-        `;
-
-            const deleteButton = document.querySelector(".delete");
-            deleteButton.addEventListener("click", () => {
-              let containers = document.getElementById(String(datas[data].id + 1));
-              if (containers) {
-                containers.remove();
-              }
-              delete datas[data];
-              return;
-            });
-            const updateButton = document.querySelector(".update");
-            updateButton.addEventListener("click", () => {
-              //--
-            });
-            break;
-          }
-        }
-      });
-
-      // Memberi event click pada home-button
-      const homeButton = document.querySelector("#home-button");
-      const addButton = document.querySelector("#add-pahlawan");
-      const addPage = document.querySelector("#add-page");
-
-      homeButton.addEventListener("click", () => {
-        mainPage.removeAttribute("style");
-        const detail = document.querySelector("#detail");
-        detail.innerHTML = "";
-        detail.setAttribute("style", "display: none");
-        addPage.setAttribute("style", "display: none");
-      });
-
-      // Memberi event click pada add buton
-      addButton.addEventListener("click", () => {
-        mainPage.setAttribute("style", "display: none");
-        addPage.removeAttribute("style");
-        detail.setAttribute("style", "display: none");
-      });
-
-      function submitForm(event) {
-        event.preventDefault();
-      }
-
-      const submitButton = document.querySelector("#submit");
-      submitButton.addEventListener("onsubmit", (event) => {
-        event.preventDefault();
-      });
-
-      container.appendChild(card);
-
-      if (count % 4 === 0) {
-        gallery.appendChild(container);
-        container = document.createElement("div");
-        container.setAttribute("class", "container");
-      }
-    }
-    gallery.appendChild(container);
+  if (dataConverter === undefined) {
+    dataConverter = datas;
   }
-  SERC.oninput = (event) => {
-    dataConverter = {};
-    let containers = document.getElementById("gallery");
-    if (containers) {
-      containers.innerHTML = '<h2 class="gallery-title">Profile Pahlawan</h2>';
-    }
-    for (let key in datas) {
-      if (key.toLowerCase().includes(SERC.value.toLowerCase())) {
-        dataConverter[key] = {
-          id: datas[key].id,
-          tempatLahir: datas[key].tempatLahir,
-          tanggalLahir: datas[key].tanggalLahir,
-          meninggal: datas[key].meninggal,
-          img: datas[key].img,
-          desc: datas[key].desc,
-        };
+  for (let data in dataConverter) {
+    count++;
+    const card = document.createElement("div");
+    card.setAttribute("class", "card");
+    card.setAttribute("id", data);
+
+    const cardImg = document.createElement("div");
+    cardImg.setAttribute("class", "card-img");
+
+    const img = document.createElement("img");
+    img.setAttribute("src", datas[data].img);
+    cardImg.appendChild(img);
+
+    const cardContent = document.createElement("div");
+    cardContent.setAttribute("class", "card-content");
+
+    const h3 = document.createElement("h3");
+    h3.innerText = data;
+    const p1 = document.createElement("p");
+    p1.innerHTML = `<span>Tempat lahir:</span> ${datas[data].tempatLahir}`;
+    const p2 = document.createElement("p");
+    p2.innerHTML = `<span>Tanggal lahir:</span> ${datas[data].tanggalLahir}`;
+    const p3 = document.createElement("p");
+    p3.innerHTML = `<span>Meninggal:</span> ${datas[data].meninggal}`;
+    const p4 = document.createElement("p");
+    p4.innerText = datas[data].desc;
+    const p5 = document.createElement("p");
+    p5.innerText = datas[data].id;
+    p5.setAttribute("style", "display: none");
+
+    cardContent.appendChild(h3);
+    cardContent.appendChild(p1);
+    cardContent.appendChild(p2);
+    cardContent.appendChild(p3);
+    cardContent.appendChild(p4);
+    cardContent.appendChild(p5);
+
+    card.appendChild(cardImg);
+    card.appendChild(cardContent);
+
+    const mainPage = document.querySelector("#main-page");
+    // Memberi event click pada card
+    card.addEventListener("click", () => {
+      selectedId = datas[data].id;
+      mainPage.setAttribute("style", "display: none");
+      console.log(datas[data].id);
+
+      // Detail Page
+      const detail = document.querySelector("#detail");
+
+      for (let data in datas) {
+        if (datas[data].id === selectedId) {
+          detail.removeAttribute("style");
+          detail.innerHTML = `
+      <div class="top-content">
+          <img src="${datas[data].img}">
+          <div class="top-content-info">
+              <h2>${data}</h2>
+              <p><span>Tempat Lahir:</span> ${datas[data].tempatLahir}</p>
+              <p><span>Tanggal Lahir:</span> ${datas[data].tanggalLahir}</p>
+              <p><span>Wafat:</span> ${datas[data].meninggal}</p>
+          </div>
+      </div>
+      <div class="bottom-content">
+          <h3>Deskripsi Singkat</h3>
+          <p>${datas[data].desc}</p>
+      </div>
+      <div class="button-set">
+          <button class="update">Update Data Deskripsi</button>
+          <button class="delete">Delete Data</button>
+      </div>
+      `;
+
+          const deleteButton = document.querySelector(".delete");
+          deleteButton.addEventListener("click", () => {
+            let containers = document.getElementById(data);
+            if (containers) {
+              containers.remove();
+            }
+            delete datas[data];
+            return;
+          });
+          const updateButton = document.querySelector(".update");
+          updateButton.addEventListener("click", () => {
+            if (updateButton) {
+              datas[data].desc = prompt("Silakan isi : ")
+            }
+          });
+          break;
+        }
       }
+    });
+
+    // Memberi event click pada home-button
+    const homeButton = document.querySelector("#home-button");
+    const addButton = document.querySelector("#add-pahlawan");
+    const addPage = document.querySelector("#add-page");
+
+    homeButton.addEventListener("click", () => {
+      mainPage.removeAttribute("style");
+      const detail = document.querySelector("#detail");
+      detail.innerHTML = "";
+      detail.setAttribute("style", "display: none");
+      addPage.setAttribute("style", "display: none");
+    });
+
+    // Memberi event click pada add buton
+    addButton.addEventListener("click", () => {
+      mainPage.setAttribute("style", "display: none");
+      addPage.removeAttribute("style");
+      detail.setAttribute("style", "display: none");
+    });
+
+    // function submitForm(event) {
+    //   event.preventDefault();
+    // }
+
+    // const submitButton = document.querySelector("#submit");
+    // submitButton.addEventListener("onsubmit", (event) => {
+    //   event.preventDefault();
+    // });
+
+    container.appendChild(card);
+
+    if (count % 4 === 0) {
+      gallery.appendChild(container);
+      container = document.createElement("div");
+      container.setAttribute("class", "container");
     }
-    webdata();
-  };
+  }
+  gallery.appendChild(container);
+}
+SERC.oninput = (event) => {
+  dataConverter = {};
+  let containers = document.getElementById("gallery");
+  if (containers) {
+    containers.innerHTML = '<h2 class="gallery-title">Profile Pahlawan</h2>';
+  }
+  for (let key in datas) {
+    if (key.toLowerCase().includes(SERC.value.toLowerCase())) {
+      dataConverter[key] = {
+        id: datas[key].id,
+        tempatLahir: datas[key].tempatLahir,
+        tanggalLahir: datas[key].tanggalLahir,
+        meninggal: datas[key].meninggal,
+        img: datas[key].img,
+        desc: datas[key].desc,
+      };
+    }
+  }
+  webdata();
+};
+webdata();
+
+function addtable(){
+  const nama = document.getElementById("nama").value;
+  const tempatlahir = document.getElementById("tempatlahir").value;
+  const tanggallahir = document.getElementById("tanggallahir").value;
+  const wafat = document.getElementById("wafat").value;
+  const imgsrc = document.getElementById("imgsrc").value;
+  const deskripsi = document.getElementById("deskripsi").value;
+  datas[nama] = {
+    id: nama,
+    tempatLahir: tempatlahir,
+    tanggalLahir: tanggallahir,
+    meninggal: wafat,
+    img: imgsrc,
+    desc: deskripsi,
+  }
+  console.log(datas[nama])
+}
+
+function showTime() {
+	document.getElementById('currentTime').innerHTML = new Date().toUTCString();
+  let containers = document.getElementById("gallery");
+  if (containers) {
+    containers.innerHTML = '<h2 class="gallery-title">Profile Pahlawan</h2>';
+  }
   webdata();
 }
-runingMainJS();
+showTime();
+setInterval(function () {
+	showTime();
+}, 1000);
