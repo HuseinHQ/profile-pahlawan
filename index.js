@@ -115,7 +115,7 @@ function webdata() {
     const p2 = document.createElement("p");
     p2.innerHTML = `<span>Tanggal lahir:</span> ${datas[data].tanggalLahir}`;
     const p3 = document.createElement("p");
-    p3.innerHTML = `<span>Meninggal:</span> ${datas[data].meninggal}`;
+    p3.innerHTML = `<span>Wafat:</span> ${datas[data].meninggal}`;
     const p4 = document.createElement("p");
     p4.innerText = datas[data].desc;
     const p5 = document.createElement("p");
